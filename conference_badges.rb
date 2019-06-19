@@ -11,7 +11,7 @@ end
 
 def assign_rooms(attendees, room_assignments)
   attendees.each do |attendee|
-    puts "Hello, #{attendee}! You'll be assigned to room #{++room_assignments}!"
+    return "Hello, #{attendee}! You'll be assigned to room #{++room_assignments}!"
   end 
   
 end 
